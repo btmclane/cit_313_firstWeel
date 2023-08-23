@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <nav>
+        <a href="index.html" class = "nav">Home</a>
+        <a href="products.html" class = "nav">Products</a>
+        <a href="registration.html" class = "nav">Registration</a>
+    </nav>
+
+    <header style="background-color: azure"><h2>Golf Ball Tracker ProV1 App Registration
+    </h2>
+    
+    </header>
+    <form id="carForm" action="#" method="get">
+        <fieldset>
+          <legend>Personal Information</legend>
+                <label for="fullName"
+        
+                >Full Name: 
+                
+                        <input
+                          type="text"
+                          id="fullName"
+                          name="fullName"
+                          placeholder="Full Name"
+                          size="25"
+                          required
+                          minlength="1"
+                          maxlength="60"
+                          pattern="^[A-Za-z]+$"
+                        />
+                        </label>
+                        
+                        <br><br>
+
+                        <label for="State"
+        
+                >City: 
+                
+                        <input
+                          type="text"
+                          id="city"
+                          name="city"
+                          placeholder="City"
+                          size="25"
+                          required
+                          minlength="1"
+                          maxlength="60"
+                          pattern="^[A-Za-z]+$"
+                        />
+                        </label>
+                        
+                        <br><br>
+
+                        <label for="state"
+        
+                >State: 
+                
+                        <input
+                          type="text"
+                          id="state"
+                          name="state"
+                          placeholder="State"
+                          size="25"
+                          required
+                          minlength="1"
+                          maxlength="60"
+                          pattern="^[A-Za-z]+$"
+                        />
+                        </label>
+                        
+                        <br><br>
+                        <label for="Address"
+        
+                >Address: 
+                
+                        <input
+                          type="text"
+                          id="Address"
+                          name="Address"
+                          placeholder="Address"
+                          size="40"
+                          required
+                          minlength="1"
+                          maxlength="60"
+                          pattern="^[A-Za-z]+$"
+                        />
+                        </label>
+        <br><br>
+                        <label for="email"
+        
+                >Email: 
+        
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="xxxxxxxx@xxxxxx.com"
+                  size="25"
+                  required
+                  minlength="1"
+                  maxlength="60"
+                />
+              </label>
+                   <br><br>
+              <label for="comment">
+        
+                What do you enjoy most about golf?:
+              
+                <textarea
+                  id="comment"
+                  name="comment"
+                  placeholder="Comments"
+                >
+              
+                </textarea>
+              
+              </label>
+              <br>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Card Information</legend>
+        <label for="cardNum"
+        
+              >Card Number(No Spaces):
+        
+              <input
+                type="number"
+                id="cardNum"
+                name="cardNum"
+                placeholder="0"
+                size="16"
+                minlength="1"
+                maxlength="16"
+                min="0"
+                max="9999999999999999999999"
+                step="1"
+              />
+        
+            </label>
+            <br><br>
+        
+            <label for="cvv"
+        
+            >CSV:
+      
+            <input
+              type="number"
+              id="cvv"
+              name="cvv"
+              placeholder="0"
+              size="3"
+              minlength="1"
+              maxlength="3"
+              min="0"
+              max="999"
+              step="1"
+            />
+      
+          </label>
+            <br><br>
+            
+        
+            <br>
+        </fieldset>
+        <br>
+                    <input type="submit" id="process" />
+            </form>
+    
+</body>
+</html>
